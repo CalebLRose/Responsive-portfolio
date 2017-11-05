@@ -1,0 +1,182 @@
+body {
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/pow-star.png);
+	background-color: #ae0303;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #0a1b23;
+}
+
+.header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: fixed; 
+    top: 0; left: 0 ; right: 0;
+	background-color: #f6d745;
+	height: 80px;
+	border-bottom: 3px solid #ae0303;
+	z-index: 1;
+}
+
+.name {
+	display: inline-block;
+	background-color: #011633;
+	color: #fff;
+	font-size: 14px;
+	height: 80px;
+	margin-left: 240px;
+    padding: 0 20px;
+}
+
+a {
+	color: #ae0303;
+}
+
+.pages{
+	display: inline-block;
+	margin-left: 500px;
+}
+
+.main { 
+	width: 960px;
+	position: relative;
+	margin: 40px auto;
+ }
+
+ .about-me, .portfolio, .contact {
+ 	padding: 0 5px;
+ }
+
+ .about-me, .portfolio {
+ 	border-right: 1px solid #011633;
+ }
+
+ .about-me:hover, .portfolio:hover, .contact:hover{
+	background-color: #011633;
+	color: #fff;
+}
+
+.github:hover, .linkedin:hover, .stack:hover {
+	border: solid 1px #ae0303;
+}
+
+.content {
+	border: 1px solid #011633;
+	display: inline-block;
+	width: 650px;
+	background-color: #fff;
+	margin: 100px auto 150px;
+	position: absolute;
+}
+
+.title {
+	color: #011633;;
+	padding: 10px 0px 20px;
+	margin: 20px 20px;
+	border-bottom: 1px solid #d66b36;
+}
+
+#headshot {
+	float: left;
+	height: 40%;
+	width: 40%;
+	margin: 0 20px 10px;
+}
+
+#bio {
+	margin: 0 20px;
+	text-align: justify;
+}
+
+.examples {
+	height: 40%;
+	width: 40%;
+	padding: 10px;
+	margin: 20px
+}
+
+.label {
+	display: inline-block;
+	text-align: center;
+	background-color: #011633;
+	color: #fff;
+	font-size: 14px;
+    height: 50px;
+    width: 260px
+}
+
+#ads {
+	position: absolute;
+	top: 425px;
+    left: 30px;
+}
+
+#calendars {
+	position: absolute;
+	top: 425px;
+	left: 354px;
+}
+
+#events {
+	position: absolute;
+	top: 750px;
+    left: 30px;
+}
+
+#misc {
+	position: absolute;
+	top: 750px;
+	left: 354px;
+}
+
+form { 
+	padding-left: 30px;
+ }
+
+ button { 
+ 	margin: 10px 30px 15px;
+}
+
+input {
+	width: 90%;
+	margin: 8px auto;
+	padding: 12px 15px;
+}
+
+
+.sidebar {
+	border: 1px solid #011633; 
+	color: #011633;
+	display: inline-block;
+	height: 200px;
+	width: 270px;
+	background-color: #fff;
+	position: absolute;
+	left: 690px;
+    top: 100px;
+}
+
+.connect {
+	margin: 20px 20px;
+	padding: 15px;
+	border-bottom: 1px solid #d66b36;
+}
+
+.links {
+		margin: 30px 50px;
+}
+
+
+.footer {
+	position: fixed; 
+    left: 0 ; right: 0; bottom: 0;
+	background-color: #011633;
+	width: 100%;
+	height: 80px;
+    border-top: 8px solid #ebba05;
+    z-index: 1;
+}
+
+.foot-txt {
+	margin-top: 30px;
+	font-size: 10px;
+    color: #fff;
+   	text-align: center;
+}
