@@ -31,7 +31,7 @@ a {
 
 .pages{
 	display: inline-block;
-	margin-left: 500px;
+	margin-left: 450px;
 }
 
 .main { 
@@ -67,7 +67,7 @@ a {
 }
 
 .title {
-	color: #011633;;
+	color: #011633;
 	padding: 10px 0px 20px;
 	margin: 20px 20px;
 	border-bottom: 1px solid #d66b36;
@@ -82,7 +82,7 @@ a {
 
 #bio {
 	margin: 0 20px;
-	text-align: justify;
+	text-align: left;
 }
 
 .examples {
@@ -179,4 +179,116 @@ input {
 	font-size: 10px;
     color: #fff;
    	text-align: center;
+}
+
+@media screen and (max-width: 1133px){
+		.pages{
+			margin-left: 200px;
+		}
+}
+
+@media screen and (max-width: 980px){
+		.name {
+			margin-left: 108px;
+    		padding: 0 10px;
+		}
+		.pages {
+			margin-left: 320px;
+		}
+		.content { 
+			width: 450px;
+			margin-left: 100px;
+ 		}
+ 		.sidebar {
+ 			width: 225px;
+ 			margin-left: -85px;
+ 		}
+		.connect {
+			margin: 10px 14px;
+			padding: 7.5px;
+			font-size: 22px;
+		}
+		.links {
+			height: 80%;
+			width: 80%;
+			margin-left: 30px;
+		}
+		#headshot {
+			height: 90%;
+			width: 90%;
+		}
+
+	}
+	
+
+@media screen and (max-width: 768px){
+		body {
+			max-width: 768px;
+		}
+		.header {
+			height: 100px;
+		}
+		.name {
+			height: 100px;
+			width: 255px;
+			font-size: 18px;
+			margin-left: 45px;
+		}
+		.myName {
+			margin-left: 20px;
+		}
+		.pages{
+			margin-left: 370px;
+		}
+		.content {
+			position: static;
+			width: 875px;
+			margin: 100px 35px 0px;
+			font-size: 18px;
+		}
+		.sidebar {
+			position: static;
+			width: 875px;
+			margin: 40px 35px;
+		}
+		#headshot {
+			width: 50%;
+			height: 50%;
+		}
+
+}
+	
+
+@media screen and (max-width: 640px){
+	.name{
+		width: 1000px;
+		position: fixed; 
+    	top: 0; left: 0 ; right: 0;
+    	margin-left: 0px;
+	}
+	.header{
+		height: 150px;
+	}
+	.myName {
+		font-size: 42px;
+		margin-left: 364px;
+	}
+	.pages {
+		margin: 115px 90px;
+	}
+	.about-me, .portfolio, .contact {
+		border: none;
+		margin: 30px 80px;
+		font-size: 20px;
+	}
+	.main {
+		margin: 100px auto 0px;
+	}
+	.footer{
+		position: static;
+		width: 1000px;
+		bottom: 0; left: 0 ; right: 0;
+    	margin-left: -10px;
+	}
+
 }
