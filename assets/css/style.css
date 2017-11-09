@@ -302,7 +302,11 @@ input {
 		width: 620px;
 		position: static;
 		margin: 0px 30px 20px 20px;
-		font-size: 18px;
+		font-size: 16px;
+	}
+	#headshot {
+		width: 90%;
+		margin-left: 30px;
 	}
 	.sidebar {
 		width: 620px;
