@@ -222,73 +222,98 @@ input {
 	
 
 @media screen and (max-width: 768px){
-		body {
-			max-width: 768px;
-		}
 		.header {
-			height: 100px;
+			height: 80px;
 		}
 		.name {
-			height: 100px;
-			width: 255px;
-			font-size: 18px;
-			margin-left: 45px;
-		}
-		.myName {
+			height: 80px;
+			width: 180px;
 			margin-left: 20px;
 		}
+		.myName {
+			margin-left: 10px;
+		}
 		.pages{
-			margin-left: 370px;
+			margin-left: 225px;
 		}
 		.content {
+			width: 730px;
 			position: static;
-			width: 875px;
-			margin: 100px 35px 0px;
+			margin: 80px 12px 0px;
 			font-size: 18px;
 		}
 		.sidebar {
 			position: static;
-			width: 875px;
-			margin: 40px 35px;
+			width: 730px;
+			margin: 40px 12px 80px;
 		}
 		#headshot {
 			width: 50%;
 			height: 50%;
+		}
+		.footer {
+			margin-top: 80px;
+			width: 100%;
 		}
 
 }
 	
 
 @media screen and (max-width: 640px){
-	.name{
-		width: 1000px;
-		position: fixed; 
-    	top: 0; left: 0 ; right: 0;
-    	margin-left: 0px;
+	.name {
+		width: 100%; 
+		position: static;
+    	margin-left: -10px;
+    	margin-top: -10px;
+    	padding-right: 40px;
 	}
-	.header{
+	.header {
+		position: static;
+		margin-left: -10px;
+    	padding-right: 40px;
+		width: 640px;
 		height: 150px;
 	}
 	.myName {
 		font-size: 42px;
-		margin-left: 364px;
+		margin-left: 235px;
+		margin-top: 20px;
 	}
 	.pages {
-		margin: 115px 90px;
+		margin: 25px;
 	}
 	.about-me, .portfolio, .contact {
 		border: none;
-		margin: 30px 80px;
 		font-size: 20px;
 	}
-	.main {
-		margin: 100px auto 0px;
+	.about-me {
+		margin-left: 50px;
 	}
-	.footer{
+	.portfolio {
+		margin-left: 130px;
+	}
+	.contact {
+		margin-left: 130px;
+	}
+	.main{
+		width: 640px;
+	}
+	.content {
+		width: 620px;
 		position: static;
-		width: 1000px;
-		bottom: 0; left: 0 ; right: 0;
-    	margin-left: -10px;
+		margin: 0px 30px 20px 20px;
+		font-size: 18px;
+	}
+	.sidebar {
+		width: 620px;
+		position: static;
+		margin: 20px 30px 0px 20px;
+	}
+	.footer {
+		position: static;
+		width: 100%;
+		margin-left: -10px;
+    	padding-right: 50px;
 	}
 
 }
