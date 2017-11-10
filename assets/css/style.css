@@ -132,6 +132,12 @@ form {
 
  button { 
  	margin: 10px 30px 15px;
+	width: 80px;
+	height: 40px;
+	color: #fff;
+	background-color: #011633;
+	border: none;
+	font-size: 14px;
 }
 
 input {
@@ -188,6 +194,9 @@ input {
 }
 
 @media screen and (max-width: 980px){
+		.header {
+			width: 980px;
+		}
 		.name {
 			margin-left: 108px;
     		padding: 0 10px;
@@ -199,6 +208,38 @@ input {
 			width: 450px;
 			margin-left: 100px;
  		}
+ 		.examples {
+ 			width: 80%;
+ 			margin-left: 35px;
+ 		}
+ 		.label {
+			text-align: center;
+			font-size: 18px;
+    		height: 70px;
+    		width: 360px;
+		}
+		#ads {
+			top: 475px;
+    		left: 45px;
+		}
+		#calendars {
+			top: 1045px;
+			left: 45px;
+		}
+		#events {
+		top: 1480px;
+    	left: 45px;
+		}
+		#misc {
+			top: 1920px;
+			left: 45px;
+		}
+		form{
+			padding-left: 15px;
+		}
+		textarea {
+			width: 96%;
+		}
  		.sidebar {
  			width: 225px;
  			margin-left: -85px;
@@ -217,8 +258,8 @@ input {
 			height: 90%;
 			width: 90%;
 		}
-
-	}
+}
+	
 	
 
 @media screen and (max-width: 768px){
@@ -233,14 +274,49 @@ input {
 		.myName {
 			margin-left: 10px;
 		}
-		.pages{
+		.pages {
 			margin-left: 225px;
+		}
+		.main {
+			width: 768px;
 		}
 		.content {
 			width: 730px;
 			position: static;
 			margin: 80px 12px 0px;
 			font-size: 18px;
+		}
+		.examples {
+ 			width: 38%;
+ 			margin-left: 35px;
+ 		}
+ 		.label {
+			text-align: center;
+			font-size: 18px;
+    		height: 70px;
+    		width: 279px;
+		}
+		#ads {
+			top: 500px;
+    		left: 57px;
+		}
+		#calendars {
+			top: 500px;
+			left: 415px;
+		}
+		#events {
+			top: 860px;
+    		left: 57px;
+		}
+		#misc {
+			top: 860px;
+			left: 415px;
+		}
+		form{
+			padding-left: 30px;
+		}
+		textarea {
+			width: 94%;
 		}
 		.sidebar {
 			position: static;
@@ -255,23 +331,22 @@ input {
 			margin-top: 80px;
 			width: 100%;
 		}
-
 }
 	
 
 @media screen and (max-width: 640px){
 	.name {
-		width: 100%; 
+		width: 640px; 
 		position: static;
     	margin-left: -10px;
     	margin-top: -10px;
-    	padding-right: 40px;
+    	padding-right: 50px;
 	}
 	.header {
 		position: static;
-		margin-left: -10px;
-    	padding-right: 40px;
 		width: 640px;
+		margin-left: -10px;
+    	padding-right: 50px;
 		height: 150px;
 	}
 	.myName {
@@ -297,25 +372,58 @@ input {
 	}
 	.main{
 		width: 640px;
+		margin-bottom: 0px;
 	}
 	.content {
 		width: 620px;
 		position: static;
-		margin: 0px 30px 20px 20px;
+		margin: 0px 25px 20px;
 		font-size: 16px;
 	}
 	#headshot {
 		width: 90%;
 		margin-left: 30px;
 	}
+	.examples {
+ 			width: 85%;
+ 			margin-left: 35px;
+ 	}
+ 	.label {
+		font-size: 22px;
+    	height: 90px;
+    	width: 529px;
+	}
+	#ads {
+		top: 700px;
+    	left: 70px;
+	}
+	#calendars {
+		top: 1480px;
+		left: 70px;
+	}
+	#events {
+		top: 2080px;
+    	left: 70px;
+	}
+	#misc {
+		top: 2670px;
+		left: 70px;
+	}
+	textarea {
+		width: 95%;
+	}
+	form{
+		padding-left: 30px;
+		}
 	.sidebar {
 		width: 620px;
 		position: static;
-		margin: 20px 30px 0px 20px;
+		margin: 20px 25px 0px;
 	}
 	.footer {
 		position: static;
-		width: 100%;
+		width: 640px;
+		margin-top: 50px;
 		margin-left: -10px;
     	padding-right: 50px;
 	}
